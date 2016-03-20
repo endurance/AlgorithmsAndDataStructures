@@ -84,5 +84,10 @@ namespace DataStructures
                 TraverseWithNode(node.RightNode, nodes);
             }
         }
+
+        public void Remove(T data)
+        {
+            // if we cant find this node
+        }
     }
 }
